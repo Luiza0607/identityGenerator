@@ -72,5 +72,5 @@ fs.writeFile('people.json', data, (err) => {
 		console.log('Something went wrong');
 		throw err;
 	}
-	console.log('The file has been saved!');
+	console.log('File has been successfully generated! Check people.json');
 });
